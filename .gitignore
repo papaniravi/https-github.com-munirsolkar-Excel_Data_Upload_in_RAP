@@ -1,0 +1,48 @@
+# ABAP Development Tools
+.metadata/
+.recommenders/
+.project
+.classpath
+.settings/
+
+# SAP Specific
+*.abapgit.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Excel test files (optional)
+test_uploads/
+*.xlsx
+*.xls
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Node modules (if using for UI development)
+node_modules/
+package-lock.json
+yarn.lock
