@@ -1,0 +1,26 @@
+{
+  "error": {
+    "code": "400",
+    "message": "Validation failed",
+    "details": [
+      {
+        "code": "VALIDATION_ERROR",
+        "message": "Amount must be greater than zero",
+        "target": "Amount",
+        "severity": "error"
+      },
+      {
+        "code": "VALIDATION_ERROR",
+        "message": "Document date cannot be in the future",
+        "target": "DocumentDate",
+        "severity": "error"
+      },
+      {
+        "code": "VALIDATION_ERROR",
+        "message": "Customer ID is mandatory",
+        "target": "CustomerId",
+        "severity": "error"
+      }
+    ]
+  }
+}

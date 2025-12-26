@@ -1,0 +1,11 @@
+Document Number,Document Date,Customer ID,Customer Name,Amount,Currency
+DOC0011,2024-02-01,CUST008,Valid Record,500.00,USD
+DOC0012,2026-12-31,CUST009,Future Date Error,1000.00,USD
+DOC0013,2024-02-03,,Missing Customer ID,750.00,EUR
+DOC0014,2024-02-04,CUST010,Negative Amount,-100.00,USD
+DOC0015,2024-02-05,CUST011,Zero Amount,0.00,GBP
+DOC0016,,CUST012,Missing Date,800.00,USD
+,2024-02-07,CUST013,Missing Doc Number,600.00,EUR
+DOC0017,2024-02-08,CUST014,Missing Currency,1200.00,
+DOC0018,2024-02-09,CUST015,Valid Record 2,3500.50,USD
+DOC0019,invalid-date,CUST016,Invalid Date Format,900.00,USD

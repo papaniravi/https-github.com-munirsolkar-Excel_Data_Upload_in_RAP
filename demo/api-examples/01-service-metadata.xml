@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:DataServices>
+    <Schema Namespace="ZSD_UPLOAD_DATA" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+
+      <!-- Entity Type Definition -->
+      <EntityType Name="UploadDataType">
+        <Key>
+          <PropertyRef Name="UploadId"/>
+        </Key>
+        <Property Name="UploadId" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="DocumentNumber" Type="Edm.String" MaxLength="10"/>
+        <Property Name="DocumentDate" Type="Edm.Date"/>
+        <Property Name="CustomerId" Type="Edm.String" MaxLength="10"/>
+        <Property Name="CustomerName" Type="Edm.String" MaxLength="80"/>
+        <Property Name="Amount" Type="Edm.Decimal" Scale="2" Precision="15"/>
+        <Property Name="Currency" Type="Edm.String" MaxLength="5"/>
+        <Property Name="Status" Type="Edm.String" MaxLength="1"/>
+        <Property Name="ErrorMessage" Type="Edm.String" MaxLength="255"/>
+        <Property Name="CreatedBy" Type="Edm.String" MaxLength="12"/>
+        <Property Name="CreatedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="LastChangedBy" Type="Edm.String" MaxLength="12"/>
+        <Property Name="LastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="LocalLastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+      </EntityType>
+
+      <!-- Entity Container -->
+      <EntityContainer Name="EntityContainer">
+        <EntitySet Name="UploadData" EntityType="ZSD_UPLOAD_DATA.UploadDataType">
+          <Annotation Term="Capabilities.DeleteRestrictions">
+            <Record><PropertyValue Property="Deletable" Bool="true"/></Record>
+          </Annotation>
+          <Annotation Term="Capabilities.InsertRestrictions">
+            <Record><PropertyValue Property="Insertable" Bool="true"/></Record>
+          </Annotation>
+          <Annotation Term="Capabilities.UpdateRestrictions">
+            <Record><PropertyValue Property="Updatable" Bool="true"/></Record>
+          </Annotation>
+        </EntitySet>
+      </EntityContainer>
+
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

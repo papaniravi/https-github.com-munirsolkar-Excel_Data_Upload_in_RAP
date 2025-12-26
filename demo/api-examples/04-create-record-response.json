@@ -1,0 +1,18 @@
+{
+  "@odata.context": "$metadata#UploadData/$entity",
+  "@odata.metadataEtag": "W/\"xyz123\"",
+  "UploadId": "550e8400-e29b-41d4-a716-446655440020",
+  "DocumentNumber": "DOC0020",
+  "DocumentDate": "2024-02-10",
+  "CustomerId": "CUST020",
+  "CustomerName": "New Customer Inc",
+  "Amount": "5000.00",
+  "Currency": "USD",
+  "Status": "P",
+  "ErrorMessage": "",
+  "CreatedBy": "USER003",
+  "CreatedAt": "2024-02-10T14:20:00Z",
+  "LastChangedBy": "USER003",
+  "LastChangedAt": "2024-02-10T14:20:00Z",
+  "LocalLastChangedAt": "2024-02-10T14:20:00Z"
+}

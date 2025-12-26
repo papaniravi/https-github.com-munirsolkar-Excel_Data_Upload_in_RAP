@@ -1,0 +1,54 @@
+{
+  "@odata.context": "$metadata#UploadData",
+  "@odata.metadataEtag": "W/\"xyz123\"",
+  "value": [
+    {
+      "UploadId": "550e8400-e29b-41d4-a716-446655440001",
+      "DocumentNumber": "DOC0001",
+      "DocumentDate": "2024-01-15",
+      "CustomerId": "CUST001",
+      "CustomerName": "Acme Corporation",
+      "Amount": "1500.00",
+      "Currency": "USD",
+      "Status": "S",
+      "ErrorMessage": "",
+      "CreatedBy": "USER001",
+      "CreatedAt": "2024-01-15T10:30:00Z",
+      "LastChangedBy": "USER001",
+      "LastChangedAt": "2024-01-15T10:30:00Z",
+      "LocalLastChangedAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "UploadId": "550e8400-e29b-41d4-a716-446655440002",
+      "DocumentNumber": "DOC0002",
+      "DocumentDate": "2024-01-16",
+      "CustomerId": "CUST002",
+      "CustomerName": "Tech Solutions Inc",
+      "Amount": "2750.50",
+      "Currency": "EUR",
+      "Status": "S",
+      "ErrorMessage": "",
+      "CreatedBy": "USER001",
+      "CreatedAt": "2024-01-16T11:45:00Z",
+      "LastChangedBy": "USER001",
+      "LastChangedAt": "2024-01-16T11:45:00Z",
+      "LocalLastChangedAt": "2024-01-16T11:45:00Z"
+    },
+    {
+      "UploadId": "550e8400-e29b-41d4-a716-446655440003",
+      "DocumentNumber": "DOC0003",
+      "DocumentDate": "2024-01-17",
+      "CustomerId": "CUST003",
+      "CustomerName": "Global Industries Ltd",
+      "Amount": "3200.75",
+      "Currency": "GBP",
+      "Status": "S",
+      "ErrorMessage": "",
+      "CreatedBy": "USER002",
+      "CreatedAt": "2024-01-17T09:15:00Z",
+      "LastChangedBy": "USER002",
+      "LastChangedAt": "2024-01-17T09:15:00Z",
+      "LocalLastChangedAt": "2024-01-17T09:15:00Z"
+    }
+  ]
+}
